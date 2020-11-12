@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "eCart v2.0.5"
