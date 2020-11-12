@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="wrteam.ekart.shop.activity.MainActivity">
+    tools:context="com.barisalbazar.shop.activity.MainActivity">
 
     <include layout="@layout/toolbar_layout" />
 

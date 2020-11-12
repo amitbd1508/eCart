@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="wrteam.ekart.shop">
+    package="com.barisalbazar.shop">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -13,7 +13,7 @@
 
 
     <application
-        android:name="wrteam.ekart.shop.helper.AppController"
+        android:name="com.barisalbazar.shop.helper.AppController"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -42,24 +42,24 @@
             android:theme="@style/Base.Theme.AppCompat" />
 
         <activity
-            android:name="wrteam.ekart.shop.activity.MainActivity"
+            android:name="com.barisalbazar.shop.activity.MainActivity"
             android:configChanges="orientation|screenSize"
             android:windowSoftInputMode="adjustResize" />
 
         <activity
-            android:name="wrteam.ekart.shop.activity.MapActivity"
+            android:name="com.barisalbazar.shop.activity.MapActivity"
             android:configChanges="orientation|screenSize"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="wrteam.ekart.shop.activity.DrawerActivity"
+            android:name="com.barisalbazar.shop.activity.DrawerActivity"
             android:configChanges="orientation|screenSize"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="wrteam.ekart.shop.activity.LoginActivity"
+            android:name="com.barisalbazar.shop.activity.LoginActivity"
             android:configChanges="orientation|screenSize"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="wrteam.ekart.shop.activity.SplashActivity"
+            android:name="com.barisalbazar.shop.activity.SplashActivity"
             android:configChanges="orientation|screenSize"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -90,7 +90,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="wrteam.ekart.shop.activity.PayPalWebActivity"
+            android:name="com.barisalbazar.shop.activity.PayPalWebActivity"
             android:configChanges="orientation|screenSize"
             android:windowSoftInputMode="adjustResize" />
 
@@ -104,12 +104,12 @@
                 android:resource="@xml/provider_paths" />
         </provider>
 
-        <service android:name="wrteam.ekart.shop.helper.MyFirebaseMessagingService">
+        <service android:name="com.barisalbazar.shop.helper.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-        <service android:name="wrteam.ekart.shop.helper.GPSTracker" />
+        <service android:name="com.barisalbazar.shop.helper.GPSTracker" />
 
 
         <meta-data

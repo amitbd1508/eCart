@@ -16,7 +16,7 @@
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
-        <wrteam.ekart.shop.ui.CircleImageView
+        <com.barisalbazar.shop.ui.CircleImageView
             android:id="@+id/imgProfile"
             android:layout_width="60dp"
             android:layout_height="60dp"
